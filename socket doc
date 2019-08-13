@@ -1,0 +1,153 @@
+IO::Socket::IP (3pm) - A drop-in replacement for "IO::Socket::INET" supportin...
+Socket (3pm)         - networking constants and support functions
+abrt-server (1)      - Unix socket for ABRT.
+accept (2)           - accept a connection on a socket
+accept (3p)          - accept a new connection on a socket
+accept4 (2)          - accept a connection on a socket
+ares_getsock (3)     - get socket descriptors to wait on
+ares_set_socket_callback (3) - Set a socket creation callback
+audit_open (3)       - Open a audit netlink socket connection
+bind (2)             - bind a name to a socket
+bind (3p)            - bind a name to a socket
+bindresvport (3)     - bind a socket to a privileged IP port
+BIO_new_socket (3ssl) - socket BIO
+BIO_s_socket (3ssl)  - socket BIO
+connect (2)          - initiate a connection on a socket
+connect (3p)         - connect a socket
+curl_multi_assign (3) - set data to association with an internal socket
+curl_multi_socket (3) - reads/writes available data
+curl_multi_socket_action (3) - reads/writes available data given an action
+dbus-cleanup-sockets (1) - clean up leftover sockets in a directory
+function::inet_get_ip_source (3stap) - Provide IP source address string for a...
+function::inet_get_local_port (3stap) - Provide local port number for a kerne...
+function::sock_state_num2str (3stap) - Given a socket state number, return a ...
+function::sock_state_str2num (3stap) - Given a socket state string, return th...
+function::tcpmib_get_state (3stap) - Get a socket's state
+fuser (1)            - identify processes using files or sockets
+getpeername (2)      - get name of connected peer socket
+getpeername (3p)     - get the name of the peer socket
+getsockcreatecon (3) - get or set the SELinux security context used for creat...
+getsockcreatecon_raw (3) - get or set the SELinux security context used for c...
+getsockname (2)      - get socket name
+getsockname (3p)     - get the socket name
+getsockopt (2)       - get and set options on sockets
+getsockopt (3p)      - get the socket options
+if.h (0p)            - sockets local interfaces
+IO::Socket (3pm)     - Object interface to socket communications
+IO::Socket::INET (3pm) - Object interface for AF_INET domain sockets
+IO::Socket::INET6 (3pm) - Object interface for AF_INET|AF_INET6 domain sockets
+IO::Socket::SSL (3pm) - - SSL sockets with IO::Socket interface
+IO::Socket::SSL::Intercept (3pm) - - SSL interception (man in the middle)
+IO::Socket::SSL::Utils (3pm) - - loading, storing, creating certificates and ...
+IO::Socket::UNIX (3pm) - Object interface for AF_UNIX domain sockets
+ipsec_pf_key (5)     - lists PF_KEY sockets registered with KLIPS
+listen (2)           - listen for connections on a socket
+listen (3p)          - listen for socket connections and limit the queue of i...
+nc (1)               - Concatenate and redirect sockets
+ncat (1)             - Concatenate and redirect sockets
+Net::LDAPI (3pm)     - use LDAP over a UNIX domain socket
+Net::SSL (3pm)       - support for Secure Sockets Layer
+Net::SSLeay::Handle (3pm) - Perl module that lets SSL (HTTPS) sockets be hand...
+perlipc (1)          - Perl interprocess communication (signals, fifos, pipes...
+probe::ipmib.InNoRoutes (3stap) - Count an arriving packet with no matching s...
+probe::socket.aio_read (3stap) - Receiving message via sock_aio_read
+probe::socket.aio_read.return (3stap) - Conclusion of message received via so...
+probe::socket.aio_write (3stap) - Message send via sock_aio_write
+probe::socket.aio_write.return (3stap) - Conclusion of message send via sock_...
+probe::socket.close (3stap) - Close a socket
+probe::socket.close.return (3stap) - Return from closing a socket
+probe::socket.create (3stap) - Creation of a socket
+probe::socket.create.return (3stap) - Return from Creation of a socket
+probe::socket.read_iter (3stap) - Receiving message via sock_read_iter
+probe::socket.read_iter.return (3stap) - Conclusion of message received via s...
+probe::socket.readv (3stap) - Receiving a message via sock_readv
+probe::socket.readv.return (3stap) - Conclusion of receiving a message via so...
+probe::socket.receive (3stap) - Message received on a socket.
+probe::socket.recvmsg (3stap) - Message being received on socket
+probe::socket.recvmsg.return (3stap) - Return from Message being received on ...
+probe::socket.send (3stap) - Message sent on a socket.
+probe::socket.sendmsg (3stap) - Message is currently being sent on a socket.
+probe::socket.sendmsg.return (3stap) - Return from socket.sendmsg.
+probe::socket.write_iter (3stap) - Message send via sock_write_iter
+probe::socket.write_iter.return (3stap) - Conclusion of message send via sock...
+probe::socket.writev (3stap) - Message sent via socket_writev
+probe::socket.writev.return (3stap) - Conclusion of message sent via socket_w...
+probe::sunrpc.svc.recv (3stap) - Listen for the next RPC request on any socket
+probe::tcp.disconnect (3stap) - TCP socket disconnection
+probe::tcp.disconnect.return (3stap) - TCP socket disconnection complete
+probe::tcpmib.ActiveOpens (3stap) - Count an active opening of a socket
+probe::tcpmib.AttemptFails (3stap) - Count a failed attempt to open a socket
+probe::tcpmib.CurrEstab (3stap) - Update the count of open sockets
+probe::tcpmib.EstabResets (3stap) - Count the reset of a socket
+probe::tcpmib.PassiveOpens (3stap) - Count the passive creation of a socket
+raw (7)              - Linux IPv4 raw sockets
+recv (2)             - receive a message from a socket
+recv (3p)            - receive a message from a connected socket
+recvfrom (2)         - receive a message from a socket
+recvfrom (3p)        - receive a message from a socket
+recvmmsg (2)         - receive multiple messages on a socket
+recvmsg (2)          - receive a message from a socket
+recvmsg (3p)         - receive a message from a socket
+rsocket (7)          - RDMA socket API
+rtnetlink (7)        - Linux IPv4 routing socket
+sd_is_socket (3)     - Check the type of a file descriptor
+sd_is_socket_inet (3) - Check the type of a file descriptor
+sd_is_socket_unix (3) - Check the type of a file descriptor
+sd_peer_get_machine_name (3) - Determine session, service, owner of a session...
+sd_peer_get_owner_uid (3) - Determine session, service, owner of a session, c...
+sd_peer_get_session (3) - Determine session, service, owner of a session, con...
+sd_peer_get_slice (3) - Determine session, service, owner of a session, conta...
+sd_peer_get_unit (3) - Determine session, service, owner of a session, contai...
+sd_peer_get_user_unit (3) - Determine session, service, owner of a session, c...
+sd_pid_get_machine_name (3) - Determine session, service, owner of a session,...
+sd_pid_get_owner_uid (3) - Determine session, service, owner of a session, co...
+sd_pid_get_session (3) - Determine session, service, owner of a session, cont...
+sd_pid_get_slice (3) - Determine session, service, owner of a session, contai...
+sd_pid_get_unit (3)  - Determine session, service, owner of a session, contai...
+sd_pid_get_user_unit (3) - Determine session, service, owner of a session, co...
+send (2)             - send a message on a socket
+send (3p)            - send a message on a socket
+sendmmsg (2)         - send multiple messages on a socket
+sendmsg (2)          - send a message on a socket
+sendmsg (3p)         - send a message on a socket using a message structure
+sendto (2)           - send a message on a socket
+sendto (3p)          - send a message on a socket
+setsockcreatecon (3) - get or set the SELinux security context used for creat...
+setsockcreatecon_raw (3) - get or set the SELinux security context used for c...
+setsockopt (2)       - get and set options on sockets
+setsockopt (3p)      - set the socket options
+shutdown (3p)        - shut down socket send and receive operations
+sockatmark (3)       - determine whether socket is at out-of-band mark
+sockatmark (3p)      - determine whether a socket is at the out-of-band mark
+socket (2)           - create an endpoint for communication
+socket (3p)          - create an endpoint for communication
+socket (7)           - Linux socket interface
+socket (n)           - Open a TCP network connection
+socket.h (0p)        - main sockets header
+Socket6 (3pm)        - IPv6 related part of the C socket.h defines and struct...
+socketcall (2)       - socket system calls
+socketpair (2)       - create a pair of connected sockets
+socketpair (3p)      - create a pair of connected sockets
+ss (8)               - another utility to investigate sockets
+sys_socket.h (0p)    - main sockets header
+sys_un.h (0p)        - definitions for UNIX domain sockets
+systemd-activate (8) - Test socket activation of daemons
+systemd-initctl.socket (8) - /dev/initctl compatibility
+systemd-journald.socket (8) - Journal service
+systemd-shutdownd.socket (8) - Scheduled shutdown service
+systemd-socket-proxyd (8) - Bidirectionally proxy local sockets to another (p...
+systemd-udevd-control.socket (8) - Device event managing daemon
+systemd-udevd-kernel.socket (8) - Device event managing daemon
+systemd.socket (5)   - Socket unit configuration
+tapset::socket (3stap) - systemtap socket tapset
+Tcl_MakeTcpClientChannel (3) - procedures to open channels using TCP sockets
+Tcl_OpenTcpClient (3) - procedures to open channels using TCP sockets
+Tcl_OpenTcpServer (3) - procedures to open channels using TCP sockets
+un.h (0p)            - definitions for UNIX domain sockets
+unix (7)             - sockets for local interprocess communication
+usbmuxd (1)          - Expose a socket to multiplex connections from and to i...
+valgrind-listener (1) - listens on a socket for Valgrind commentary
+watchgnupg (1)       - Read and print logs from a socket
+wl_display_connect (3) - Connect to a Wayland socket
+wl_display_connect_to_fd (3) - Connect to a Wayland socket
+wl_socket (3)        - (unknown subject)
