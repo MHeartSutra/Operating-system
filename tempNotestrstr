@@ -1,0 +1,18 @@
+I found this in my lecture notes:
+char completeMessage[512], readBuffer[10];
+........
+		memset(completeMessage, '\0', sizeof(completeMessage));		// Clear the buffer.
+		while (strstr(completeMessage, "@@") == NULL) {			// As long as we haven't found the terminal...
+......
+
+		// Note that the actual pointer arithmetic here does not need a cast to long int...
+		int terminalLocation = strstr(completeMessage, "@@") - completeMessage; // Where is the terminal?
+		completeMessage[terminalLocation] = '\0';			 	// End the string early to wipe out the terminal.
+		printf("PARENT: Complete string: \"%s\"\n", completeMessage);
+    
+    https://github.com/Rufian55/Raw_C/blob/d72ab1c248d42d5d263e981d46a261d0b4e8b374/pipeDemo3.c
+    
+    and I found answer:
+    
+    
+    https://stackoverflow.com/questions/5029840/convert-char-to-int-in-c-and-c
